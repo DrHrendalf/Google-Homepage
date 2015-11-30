@@ -1,0 +1,150 @@
+li{
+	display: inline;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+li#name{
+	color: #555;
+}
+
+a#misc{
+	color: black;
+}
+
+.circular{
+	position: relative;
+	top: -23px;
+	right: -180px;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: url(images/photo.jpg) no-repeat;
+}
+
+img#logo{
+	width: 330px;
+  	margin-top: 150px;
+  	display: block;
+ 	margin-left:auto;
+ 	margin-right:auto;
+	margin-bottom: 20px;
+}
+
+input#voice{
+	position: relative;
+	left: 110px;
+	top: -39px;
+	width: 24px;
+}
+
+input#apps{
+	position: relative;
+	top: 3px;
+}
+
+input#key{
+	position: relative;
+	left: 53px;
+	top: -44px;
+	width: 24px;
+}
+
+#search{
+	line-height: 16px;
+	font-size: 14pt;
+	padding: 8px;
+}
+
+.form{
+	display: block;
+ 	margin-left:auto;
+ 	margin-right:auto;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#search_button{
+	height: 36px;
+	width: 140px;
+	color: #777;
+	background-color: #eee;
+	padding: 10px;
+	margin: 8px;
+	border: none;
+	font-weight: bold;
+}
+
+#search_button:hover{
+	height: 36px;
+	width: 140px;
+	color: #333;
+	background-color: #eee;
+	padding: 10px;
+	margin: 8px;
+	border: none;
+	font-weight: bold;
+}
+
+#lucky_button{
+	height: 36px;
+	width: 114px;
+	color: #777;
+	background-color: #eee;
+	padding: 10px;
+	margin: 8px;
+	border: none;
+	font-weight: bold;
+}
+
+#lucky_button:hover{
+	height: 36px;
+	width: 114px;
+	color: #333;
+	background-color: #eee;
+	padding: 10px;
+	margin: 8px;
+	border: none;
+	font-weight: bold;
+}
+
+.top{
+	position: fixed;
+	right:64px;
+	top:0px;
+	word-spacing: 5px;
+}
+#jesus{
+	background-color: #eee;
+	bottom:0;
+	left:0;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+#bottom-left{
+	position: fixed;
+	left:30px;
+	bottom:15px;
+}
+
+#bottom-right{
+	position: fixed;
+	right:30px;
+	bottom:15px;
+}
+
+#bottom{
+	color: #555;
+	margin: 8px;
+}
